@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowKeywordDrivenTest.Demo", "SpecFlowKeywordDrivenTest\SpecFlowKeywordDrivenTest.Demo.csproj", "{435BBB8F-4E78-495C-AD07-224DF6E1D08B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DB57AA61-DFF2-4982-A62E-D623EB88326E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SpecFlowKeywordDrivenTest.Web", "http://localhost:57804", "{24678E4E-639A-4D7F-BDBA-836BAA6C488B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost"
+		Debug.AspNetCompiler.PhysicalPath = "SpecFlowKeywordDrivenTest.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost"
+		Release.AspNetCompiler.PhysicalPath = "SpecFlowKeywordDrivenTest.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "SpecFlowKeywordDrivenTest.Web\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{435BBB8F-4E78-495C-AD07-224DF6E1D08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435BBB8F-4E78-495C-AD07-224DF6E1D08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435BBB8F-4E78-495C-AD07-224DF6E1D08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435BBB8F-4E78-495C-AD07-224DF6E1D08B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24678E4E-639A-4D7F-BDBA-836BAA6C488B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24678E4E-639A-4D7F-BDBA-836BAA6C488B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24678E4E-639A-4D7F-BDBA-836BAA6C488B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{24678E4E-639A-4D7F-BDBA-836BAA6C488B}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
